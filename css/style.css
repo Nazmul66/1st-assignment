@@ -1,0 +1,312 @@
+/*=================
+    Google Fonts
+ ==================*/
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+ /*=================
+      Global Css
+ ==================*/
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+ }
+ a{
+    text-decoration: none;
+ }
+
+/*=========================
+   Banner section Start
+==========================*/
+.banner-section{
+   height: 100vh;
+   background-image: url(../image/banner1.png);
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.banner-details{
+   max-width: 1140px;
+   margin: 0 auto;
+}
+.banner-details .change-alignment{
+   width: 50%;
+   margin-left: auto;
+   text-align: right;
+}
+.banner-details .change-alignment h1{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px; 
+    color: #151414;
+    margin-bottom: 20px;
+}
+.banner-details .change-alignment p{
+    padding-left: 80px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;     
+    color: #444343;
+    margin-bottom: 40px;
+}
+.banner-details .change-alignment .btn-primary{
+    background: #F15B22;
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+/*=========================
+   Curious section Start
+==========================*/
+.curious-section{
+    padding: 130px 0;
+ }
+ .curious-details{
+     max-width: 1140px;
+     margin: 0 auto;  
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 60px;
+ }
+ 
+ .person-info{
+     margin-top: 90px;
+ }
+ .person-info h2{
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 47px;      
+     color: #151414;
+     margin-bottom: 24px;
+ }
+ .person-info p{
+     padding-right: 100px;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 26px;
+     color: #444343;
+     margin-bottom: 16px;
+ }
+ .person-info ul li{
+     list-style: none;
+     margin-bottom: 8px;
+ }
+ .person-info ul li i{
+     color: #16D887;
+     margin-right: 18px;
+     font-size: 20px;
+ }
+ .person-info ul li span{
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 26px;
+     color: #444343; 
+ }
+ 
+ /*=========================
+    Plan section Start
+ ==========================*/
+ .plan-section{
+     padding: 0 0 130px;
+ }
+ .plan-details{
+     max-width: 1140px;
+     margin: 0 auto;
+ }
+ .plan-details h2{
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 47px;
+     color: #151414;
+     text-align: center;
+     margin-bottom: 50px;
+ }
+ 
+ .my-plan{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 86px;
+ }
+ .my-skill{
+    text-align: center;
+ }
+ .my-skill img{
+     margin-bottom: 20px;
+ } 
+ .my-skill h3{
+     font-weight: 700;
+     font-size: 30px;
+     text-align: center;
+     color: #151414;
+     margin-bottom: 14px;
+ }
+ .my-skill p{
+     font-weight: 500;
+     font-size: 25px;
+     text-align: center;   
+     color: #737272;  
+ }
+
+ /*=========================
+    About section Start
+==========================*/
+.about-section{
+    padding: 0 0 130px;
+}
+.about-details{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px; 
+}
+
+.about-title h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.about-title p{
+    padding-right: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 30px;
+}
+.about-title .btn-forth{
+    background: #F15B22;
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+/*=========================
+   Contact section Start
+==========================*/
+.contact-section{
+    padding: 0 0 130px;
+}
+.contact-details{
+    max-width: 1140px;
+    border-radius: 8px;
+    padding: 60px 64px;
+    margin: 0 auto;
+    background-image: url(../image/watch.png), url(../image/gradient2.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.contact-details h2{
+    width: 50%;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px; 
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.contact-details .btn-secondary{
+    color: #F15B22;
+    padding: 16px 36px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*=========================
+   Footer section Start
+==========================*/
+footer{
+    padding: 130px 0;
+    background-color: #151414;
+ }
+ .footer-details{
+     max-width: 1140px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     gap: 80px;
+ }
+
+ .footer-title h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.footer-title p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-right: 240px;
+    margin-bottom: 24px;
+}
+.footer-title span{
+    font-weight: 400;
+    font-size: 16px;
+    display: block;
+    line-height: 26px;
+    color: #FFFFFF; 
+    margin-bottom: 17px; 
+}
+.footer-title ul{
+    padding: 0;
+    margin-top: 30px;
+}
+.footer-title ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+
+.footer-form h3{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.footer-form .input-1{
+    width: 100%;
+    height: 48px;
+    border: 1px solid #FFF;
+    background: transparent;
+    border-radius: 8px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 0 24px;
+}
+.footer-form .btn-third{
+    color: #F15B22;
+    padding: 18px 36px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
